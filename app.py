@@ -33,6 +33,17 @@ with st.expander("📖 The Real-Life Physics: What are you looking at?"):
 st.sidebar.header("🎛️ Grid Control Panel")
 st.sidebar.markdown("Test the grid's limits.")
 
+st.sidebar.markdown("---")
+st.sidebar.subheader("💼 Custom Engineering Services")
+st.sidebar.markdown(
+    "Need custom power flow analysis, microgrid modeling, or specialized Pandapower scripts for your project?"
+)
+# Using a mailto link to direct clients straight to your inbox
+st.sidebar.link_button(
+    "✉️ Hire Me / Contact", 
+    "mailto:anshuman.kakati@broconnectlogistics.com"
+)
+
 # 1. Load Scaling (Simulating a Heatwave)
 st.sidebar.subheader("1. Weather / Demand")
 load_scale = st.sidebar.slider("Global Power Demand", min_value=0.5, max_value=2.0, value=1.0, step=0.05, 
