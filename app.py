@@ -41,7 +41,7 @@ st.sidebar.markdown(
 # Using a mailto link to direct clients straight to your inbox
 st.sidebar.link_button(
     "✉️ Hire Me / Contact", 
-    "mailto:kakatianshuman526@gmail.com"
+    "https://mail.google.com/mail/?view=cm&to=kakatianshuman526@gmail.com"
 )
 
 # 1. Load Scaling (Simulating a Heatwave)
